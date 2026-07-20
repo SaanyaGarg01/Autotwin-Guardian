@@ -144,7 +144,7 @@ export const BackgroundVideo: React.FC = () => {
       className="fixed inset-0 z-0 overflow-hidden pointer-events-none select-none"
     >
       {/* Fallback Base Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-950 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-zinc-950 to-black z-0" />
 
       {/* Video Element A */}
       <motion.video
@@ -175,7 +175,7 @@ export const BackgroundVideo: React.FC = () => {
       />
 
       {/* Dark Overlay for Dashboard Readability */}
-      <div className="absolute inset-0 bg-navy-950/60 backdrop-blur-[1px] z-10" />
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-[1px] z-10" />
 
       {/* Tech Grid Pattern */}
       <div

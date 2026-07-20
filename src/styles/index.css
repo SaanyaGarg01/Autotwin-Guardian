@@ -17,16 +17,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #0B132B;
+  background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1C2541;
+  background: #18181B;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3A506B;
+  background: #27272A;
 }
 
 /* Pulsing radar dot */
